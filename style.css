@@ -83,8 +83,6 @@
     padding-bottom: 25rem;
   }
 
-
-
   .stats-card {
     border-radius: 0.5rem;
     background-color: var(--clr-p-800);
@@ -101,7 +99,11 @@
   }
 
   .stats-card-img img{
-    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
   }
 
 
@@ -143,6 +145,10 @@
   }
 
   @media (min-width: 1000px) {
+    body {
+      padding: 0;
+    }
+
     .stats-card {
         grid-template-columns: 1fr 1fr;
         text-align: left;
