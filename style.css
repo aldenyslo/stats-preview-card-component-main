@@ -142,7 +142,7 @@
     margin-top: 1rem;
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: 1000px) {
     .stats-card {
         grid-template-columns: 1fr 1fr;
         text-align: left;
@@ -153,8 +153,12 @@
         order: 2;
     }
 
+    .card-title {
+        font-size: 2rem;
+    }
+
     .stats-content {
-        padding: 3rem;
+        padding: 4rem;
     }
 
     .stats-group {
